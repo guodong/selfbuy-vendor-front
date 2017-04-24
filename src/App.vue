@@ -107,12 +107,12 @@ export default {
     kuaican() {
       document.getElementsByClassName('room__side--left')[0].style.opacity = '0'
       document.getElementsByClassName('room__side--right')[0].style.opacity = '1'
-      document.getElementById('room').style.transform = 'rotate3d(0, 1, 0, 90deg) translateX( 500px ) translateZ( 1500px )'
+      document.getElementById('room').style.transform = 'rotate3d(0, 1, 0, 90deg) translateX( 1000px ) translateZ( 1500px )'
     },
     linshi() {
       document.getElementsByClassName('room__side--left')[0].style.opacity = '1'
       document.getElementsByClassName('room__side--right')[0].style.opacity = '0'
-      document.getElementById('room').style.transform = 'rotate3d(0, 1, 0, -90deg) translateX( -500px ) translateZ( 1500px )'
+      document.getElementById('room').style.transform = 'rotate3d(0, 1, 0, -90deg) translateX( -1000px ) translateZ( 1500px )'
     }
   }
 }
